@@ -1,0 +1,258 @@
+{
+  "id": "b392f822-3d35-47ac-86f8-2639bdfa5009",
+  "version": "2.0",
+  "name": "test_carrito 2",
+  "url": "http://automationpractice.com",
+  "tests": [{
+    "id": "3b3a1ffe-b7b0-48af-8516-76a21a2542b2",
+    "name": "carritos_test",
+    "commands": [{
+      "id": "bb196c60-94cc-42a9-8d08-facdb5b26099",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cad2068b-dd69-4b5c-aedd-5b03748cd15d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x1392",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "953b47a1-0aa4-4ba4-bb05-bdacb99c9d60",
+      "comment": "",
+      "command": "click",
+      "target": "css=#homefeatured > .ajax_block_product:nth-child(4) .replace-2x",
+      "targets": [
+        ["css=#homefeatured > .ajax_block_product:nth-child(4) .replace-2x", "css:finder"],
+        ["xpath=(//img[@alt='Printed Dress'])[2]", "xpath:img"],
+        ["xpath=//ul[@id='homefeatured']/li[4]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li[4]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0f540dd-cf89-4ce0-b76f-147a8cf3d84d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.exclusive font > font",
+      "targets": [
+        ["css=.exclusive font > font", "css:finder"],
+        ["xpath=//p[@id='add_to_cart']/button/span/font/font", "xpath:idRelative"],
+        ["xpath=//button/span/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12cbf0a0-81a2-4a8c-bb64-0f5c108f9a0a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.exclusive > span",
+      "targets": [
+        ["css=.exclusive > span", "css:finder"],
+        ["xpath=//p[@id='add_to_cart']/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Añadir a la cesta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8871243-b800-4744-b432-104e11d2decf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.exclusive > span",
+      "targets": [
+        ["css=.exclusive > span", "css:finder"],
+        ["xpath=//p[@id='add_to_cart']/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Añadir a la cesta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63ce1edf-9b24-478c-a3b0-957a2f903b5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cross",
+      "targets": [
+        ["css=.cross", "css:finder"],
+        ["xpath=//div[@id='layer_cart']/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1eb2311d-3d2f-4da8-a55c-ab11235c8a43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-home",
+      "targets": [
+        ["css=.icon-home", "css:finder"],
+        ["xpath=//div[@id='columns']/div/a/i", "xpath:idRelative"],
+        ["xpath=//a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca3a7561-d821-453d-871f-2198a55e42aa",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91504196-74bd-4d72-98cb-dcb4bd676381",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hovered .replace-2x",
+      "targets": [
+        ["css=.hovered .replace-2x", "css:finder"],
+        ["xpath=//img[@alt='Vestido Estampado']", "xpath:img"],
+        ["xpath=//ul[@id='homefeatured']/li[3]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d8fb1dc-84fe-4fb8-a358-87c5153dbfbe",
+      "comment": "",
+      "command": "click",
+      "target": "name=Submit",
+      "targets": [
+        ["name=Submit", "name"],
+        ["css=.exclusive:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='Submit']", "xpath:attributes"],
+        ["xpath=//p[@id='add_to_cart']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Añadir a la cesta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df603260-85ea-4c66-81e2-fee0d138a003",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cross",
+      "targets": [
+        ["css=.cross", "css:finder"],
+        ["xpath=//div[@id='layer_cart']/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c7a5c56-af6d-47c6-b87a-7a53b36f348e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=font > .ajax_cart_product_txt_s > font",
+      "targets": [
+        ["css=font > .ajax_cart_product_txt_s > font", "css:finder"],
+        ["xpath=//header[@id='header']/div[3]/div/div/div[3]/div/a/font/span/font", "xpath:idRelative"],
+        ["xpath=//font/span/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "875b5a74-cf0a-4cd6-9b22-7bc5e08d58d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=font > .ajax_cart_product_txt_s > font",
+      "targets": [
+        ["css=font > .ajax_cart_product_txt_s > font", "css:finder"],
+        ["xpath=//header[@id='header']/div[3]/div/div/div[3]/div/a/font/span/font", "xpath:idRelative"],
+        ["xpath=//font/span/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "683b0f3e-4bac-480c-a8c4-3a410c1645ab",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=font > .ajax_cart_product_txt_s > font",
+      "targets": [
+        ["css=font > .ajax_cart_product_txt_s > font", "css:finder"],
+        ["xpath=//header[@id='header']/div[3]/div/div/div[3]/div/a/font/span/font", "xpath:idRelative"],
+        ["xpath=//font/span/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7221a7b0-3f1d-4351-ac35-403ffb18dfa1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cart_quantity_up_4_16_0_0 > span",
+      "targets": [
+        ["css=#cart_quantity_up_4_16_0_0 > span", "css:finder"],
+        ["xpath=//a[@id='cart_quantity_up_4_16_0_0']/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04778355-8a1f-4c44-a06f-d1069edb3d47",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#cart_quantity_up_4_16_0_0 .icon-plus",
+      "targets": [
+        ["css=#cart_quantity_up_4_16_0_0 .icon-plus", "css:finder"],
+        ["xpath=//a[@id='cart_quantity_up_4_16_0_0']/span/i", "xpath:idRelative"],
+        ["xpath=//a[2]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "517a4a0b-531a-4d22-aa50-04eb869cbadf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#cart_quantity_up_4_16_0_0 .icon-plus",
+      "targets": [
+        ["css=#cart_quantity_up_4_16_0_0 .icon-plus", "css:finder"],
+        ["xpath=//a[@id='cart_quantity_up_4_16_0_0']/span/i", "xpath:idRelative"],
+        ["xpath=//a[2]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "793b6acb-6d61-44ce-9377-cd41dc17bfb7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cart_quantity_up_3_13_0_0 > span",
+      "targets": [
+        ["css=#cart_quantity_up_3_13_0_0 > span", "css:finder"],
+        ["xpath=//a[@id='cart_quantity_up_3_13_0_0']/span", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[5]/div/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b69c623e-d689-4df5-8a00-75cd9bf05b0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cart_quantity_down_3_13_0_0 > span",
+      "targets": [
+        ["css=#cart_quantity_down_3_13_0_0 > span", "css:finder"],
+        ["xpath=//a[@id='cart_quantity_down_3_13_0_0']/span", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[5]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34d5660b-1e7e-44ed-b3d2-125104f52b6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\33_13_0_0 > .icon-trash",
+      "targets": [
+        ["css=#\\33_13_0_0 > .icon-trash", "css:finder"],
+        ["xpath=//a[@id='3_13_0_0']/i", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[7]/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c219c58-9f68-4f55-b56e-690d99d38dbf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.standard-checkout font > font",
+      "targets": [
+        ["css=.standard-checkout font > font", "css:finder"],
+        ["xpath=//div[@id='center_column']/p[2]/a/span/font/font", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p[2]/a/span/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "eee169c8-70ce-48f1-8597-3a29824b6e16",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3b3a1ffe-b7b0-48af-8516-76a21a2542b2"]
+  }],
+  "urls": ["http://automationpractice.com/"],
+  "plugins": []
+}
